@@ -1,0 +1,16 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node test",
+    "predev": "npx warp project select",
+    "dev": "warp dev ./",
+    "build": "warp build ./",
+    "deploy": "warp deploy ./"
+  },
+  "devDependencies": {
+    "@warpjs/engine": "^4.0.13",
+    "warp": "^4.0.13"
+  }
+}
